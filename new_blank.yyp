@@ -35,8 +35,11 @@
   "name":"new_blank",
   "resources":[
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
-    {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
+    {"id":{"name":"sChao","path":"sprites/sChao/sChao.yy",},},
+    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
+    {"id":{"name":"sRun","path":"sprites/sRun/sRun.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
