@@ -1,5 +1,5 @@
-var col = instance_place(x+velh, y, obj_chao);
-if (col) {
+var colh = instance_place(x+velh, y, obj_chao);
+if (colh) {
 	if (velh > 0) {
 		
 	}
@@ -10,6 +10,19 @@ if (col) {
 	
 	velh = 0;
 }
-// y += velv;
+
+var colv = instance_place(x, y + velv, obj_chao);
+
+if (colv) {
+	if (velv > 0) {
+		
+	}
+	if (velv < 0) {
+	
+	}
+	velv = 0;
+}
+
+y += velv;
 x += velh;
 

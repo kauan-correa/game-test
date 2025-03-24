@@ -5,4 +5,5 @@ jump = keyboard_check(inputs.jump);
 
 velh = (right - left) * player_speed;
 
+// Aumenta a velocidade que o player cai a cada step
 velv += player_gravity;
