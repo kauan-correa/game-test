@@ -38,6 +38,7 @@
     {"id":{"name":"obj_fundo","path":"objects/obj_fundo/obj_fundo.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"TestRoom","path":"rooms/TestRoom/TestRoom.yy",},},
+    {"id":{"name":"Sequence1","path":"sequences/Sequence1/Sequence1.yy",},},
     {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"sChao","path":"sprites/sChao/sChao.yy",},},
     {"id":{"name":"sFundo","path":"sprites/sFundo/sFundo.yy",},},
