@@ -5,4 +5,12 @@ jump = keyboard_check(inputs.jump);
 
 velh = (right - left) * player_speed;
 
+velv += player_gravity;
+
+
+if (jump && no_chao) {
+	velv = -player_speed;
+	no_chao = false;
+}
+
 

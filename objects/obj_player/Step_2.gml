@@ -17,6 +17,7 @@ x += velh;
 var colv = instance_place(x, y + velv, obj_chao);
 
 if (colv) {
+	no_chao = true;
     if (velv > 0) {
 	    y = colv.bbox_top + (y - bbox_bottom);
 	}
@@ -24,13 +25,7 @@ if (colv) {
 	if (velv < 0) {
 		y = colv.bbox_bottom + (y - bbox_top);
 	}
-
 	velv = 0;
-}
-
-if (velv != 0) {
-	velv += player_gravity;
-
 }
 
 y += velv;
